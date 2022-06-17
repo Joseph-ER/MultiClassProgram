@@ -1,13 +1,6 @@
 require 'diary'
 require 'diary_entry'
 
-# diary = Diary.new
-# title = "a"
-# content = "b"
-# diary_entry = DiaryEntry.new(title,content)
-# diary.add(diary_entry)
-# diary.all # => [diary_entry]
-
 describe 'integration' do
   context "after adding entries "do
     it "lists out all added entries" do
